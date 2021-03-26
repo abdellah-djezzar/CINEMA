@@ -1,0 +1,279 @@
+*
+{
+	font-family: verdana, sans-serif;
+	margin: auto;
+}
+
+body
+{
+	background: url("bgContent.gif");
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+h1
+{
+	background: url("logo.jpg") 50% no-repeat, url("bgBanner.jpg") repeat;
+	text-indent: -9999999px;
+	height: 150px;
+}
+
+nav
+{	
+	border-top: 2px solid #3a3a45;
+	border-bottom: 2px solid #3a3a45;
+	height: 70px;
+}
+
+ul
+{
+	width: 750px;
+	padding: 0;
+	margin-top: 10px;
+}
+
+#un
+{
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	width: 212px;
+	height: 72px;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px black;
+}
+
+#deux
+{
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	width: 160px;
+	height: 72px;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px black;
+}
+
+#quatre
+{
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	width: 160px;
+	height: 72px;
+	padding-left: 25px;
+	margin-left: -15px;
+	text-shadow: 2px 2px 4px black;
+}
+
+#trois
+{
+	display: inline-block;
+	list-style: none;
+	line-height: 50px;
+	width: 146px;
+	height: 72px;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+li a 
+{
+	font-size: 20px;
+	color: #539380;
+}
+
+#un:hover 
+{
+	background: url("bgLinkLarge1.png") no-repeat;
+}
+
+#deux:hover 
+{
+	background: url("bgLinkLarge.png") no-repeat;
+}
+
+#trois:hover 
+{
+	background: url("bgLinkLargez.png") no-repeat;
+}
+
+#quatre:hover 
+{
+	background: url("bgLinkLarge.png") no-repeat;
+}
+
+
+#text 
+{
+	margin-top: 200px;
+	width: 800px;
+	font-size: 50px;
+	color: #539380;
+}
+
+form
+{
+	width: 510px;
+	margin-top: 50px;
+}
+
+input[type="text"]
+{
+	display: inline-block;
+	width: 300px;
+	height: 28px;
+	border-radius: 5px;
+}
+
+
+input[type="submit"]
+{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+#recherche
+{
+	margin-top: 30px;
+	width: 500px;
+	line-height: 20px;
+}
+#recherche h3
+{
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 4px black;
+	color: #539380;
+}
+
+#recherche p 
+{
+	margin-bottom: 15px;	
+	color: #539380;
+}
+
+#recherche .film
+{
+	line-height: 30px;
+	color: white;
+}
+
+.pagi_other
+{
+	width: 20px;
+	background-color: black;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+
+.pagi_link
+{
+	margin-top: 20px;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	margin-left: 5px;
+	border-radius: 5px;
+	color: #539380;
+	margin-bottom: 10px;
+}
+
+.pagi_actual
+{
+	width: 20px;
+	background-color: white;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+#new 
+{
+	margin-top: 14px;
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+table 
+{
+	margin-top: 100px;
+	width: 1000px;
+	margin-bottom: 0;
+}
+
+tr 
+{	
+	border: 2px solid black;
+}
+
+.titre td 
+{
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 20px;
+	color: white;
+}
+
+.donnees td 
+{
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+	color: #539380;
+}
+
+.donnees a 
+{	
+	color: #539380;
+	background: url("fleche-droite.png") bottom left no-repeat;
+	padding-left: 25px;
+}
+
+.conteneur
+{
+	width: 1000px;
+	text-align: center;
+}
+
+h2
+{
+	margin-top: 30px;
+	text-shadow: 2px 2px 4px black;
+	color: #539380;	
+	font-size: 30px;
+}
+
+.conteneur table 
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+th 
+{
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 20px;
+	color: white;
+
+}
+
+.tbclient td 
+{
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+	color: #539380;
+}
