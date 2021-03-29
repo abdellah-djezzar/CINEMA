@@ -21,7 +21,7 @@
 				require_once ('connexion.php');
 				$connect_bdd = connect_db();
 				$id_page = intval($_GET['id']);
-				$films = $connect_bdd->query("SELECT `titre`, `resum`, `annee_prod`, tp_genre.nom AS 'Genre', distrib.nom AS 'Distributeur' FROM film LEFT JOIN genre ON film.id_genre = genre.id_genre LEFT JOIN distrib ON film.id_distrib = distrib.id_distrib WHERE `id_film` = '$id_page'");
+				$films = $connect_bdd->query("SELECT `titre`, `resum`, `annee_prod`, genre.nom AS 'Genre', distrib.nom AS 'Distributeur' FROM film LEFT JOIN genre ON film.id_genre = genre.id_genre LEFT JOIN distrib ON film.id_distrib = distrib.id_distrib WHERE `id_film` = '$id_page'");
 			?>
 			<table>
 				<tr class="titre">
@@ -41,7 +41,7 @@
 					 echo $donnees['resum'];?></td>
 					 <td><?php
 					 echo $donnees['annee_prod'];?></td>
-					 <td><?phps
+					 <td><?php
 					 echo $donnees['Genre'];?></td>
 					 <td><?php
 					 echo $donnees['Distributeur'];?></td>
